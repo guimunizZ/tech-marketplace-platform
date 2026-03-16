@@ -1,40 +1,44 @@
-# 🚀 Tech Marketplace Platform
+# 🔧 Tech Marketplace Platform
 
-A full-stack JavaScript marketplace platform designed to connect technical support professionals and beginners looking for real service opportunities to gain practical experience.
+A full-stack JavaScript platform being built to connect technical service professionals and beginners seeking real opportunities to gain hands-on experience.
 
-This project is built as a real-world product simulation and a complete QA engineering learning laboratory, focusing on modern software quality practices.
+What may look like a simple marketplace on the surface is actually a continuously evolving product laboratory — designed to simulate real-world software challenges, quality risks, user behaviors and scalable architecture decisions.
 
----
-
-## 🎯 Project Purpose
-
-The main goal of this application is to simulate a production-like environment where quality assurance strategies can be applied throughout the software development lifecycle.
-
-It allows the practice of:
-
-* API testing and validation
-* End-to-end automation
-* Exploratory testing
-* Bug lifecycle management
-* Performance testing scenarios
-* CI/CD quality workflows
+Each feature is intentionally developed as part of a structured engineering journey.
 
 ---
 
-## 🏗️ Architecture
+## 🎯 Purpose
+
+This project is created as a **realistic product simulation and Quality Engineering playground**, where modern QA strategies are applied throughout the entire software lifecycle.
+
+It enables practical experience with:
+
+* API validation and contract testing
+* End-to-end user flow automation
+* Exploratory testing strategies
+* Bug lifecycle observation
+* Reliability and performance scenario simulation
+* Continuous quality mindset during feature evolution
+
+---
+
+## 🏗️ Architecture Overview
 
 ```
 tech-marketplace-platform
 │
-├── frontend      → User interface and user flows
-├── backend       → REST API and business rules
-├── tests         → Automated tests and QA experiments
-└── docs          → Test cases, architecture and planning
+├── frontend   → User experience, flows and interaction logic  
+├── backend    → REST API, business rules and data orchestration  
+├── tests      → Automation experiments and quality validation  
+└── docs       → Planning, test design and architectural notes  
 ```
+
+The system follows an **API-first mindset**, separating concerns between presentation, domain logic and quality validation layers.
 
 ---
 
-## ⚙️ Technologies
+## ⚙️ Core Technologies
 
 ### Backend
 
@@ -47,9 +51,10 @@ tech-marketplace-platform
 ### Frontend
 
 * Vite
-* Vanilla JavaScript (planned evolution to React)
+* Vanilla JavaScript
+  *(planned evolution toward component-driven architecture)*
 
-### QA & Testing
+### Quality & Testing
 
 * Jest
 * Supertest
@@ -57,14 +62,17 @@ tech-marketplace-platform
 
 ---
 
-## 🔥 Planned Features
+## 🔥 Current Direction
 
-* Authentication and role-based access (clients / technicians)
-* Service search and hiring workflow
-* Technician profiles and ratings
-* Request and service management
-* Realistic bug scenario simulations
-* Automated test pipelines
+The platform is gradually expanding to simulate:
+
+* Multi-role user environments
+* Trust and reputation mechanisms
+* Service discovery journeys
+* Operational decision flows
+* Realistic failure and recovery scenarios
+
+Every iteration introduces new technical constraints and opportunities to practice software quality engineering in depth.
 
 ---
 
@@ -78,13 +86,11 @@ npm install
 npm run dev
 ```
 
-API Health Check:
+Health check:
 
 ```
 http://localhost:3000/health
 ```
-
----
 
 ### Frontend
 
@@ -96,34 +102,31 @@ npm run dev
 
 ---
 
-## 🧪 QA Strategy
+## 🧪 Quality Engineering Approach
 
-This project is used to practice:
+This repository serves as a living environment to practice:
 
 * REST contract validation
-* E2E user journeys
-* Test data management
-* Exploratory testing documentation
-* Continuous testing mindset
+* End-to-end behavioral testing
+* Test data evolution strategies
+* Risk-based exploratory sessions
+* Continuous feedback loops
+
+The focus is not only building features — but **understanding how systems behave under uncertainty.**
 
 ---
 
-## 📈 Future Improvements
+## 📈 Evolution Path
 
-* JWT authentication
-* PostgreSQL database
-* React UI migration
-* Performance testing with k6
-* CI/CD pipeline integration
-* Deployment on cloud platforms
+Future iterations may introduce new architectural layers, data persistence strategies and user interaction patterns as the platform grows in complexity and realism.
 
 ---
 
 ## 👨‍💻 Author
 
 Guilherme Muniz
-QA Engineering Student focused on automation, API testing and modern software quality practices.
+QA Engineering student focused on automation, API testing and modern software quality practices.
 
 ---
 
-⭐ This repository represents an evolving product and continuous learning journey in Quality Engineering.
+⭐ This repository represents an ongoing journey in building software with intentional quality, curiosity and engineering discipline.
